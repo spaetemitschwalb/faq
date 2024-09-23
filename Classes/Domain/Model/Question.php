@@ -47,7 +47,7 @@ class Question extends AbstractModel
     /**
      * @var ?int
      */
-    protected $_languageUid = 0;
+    protected ?int $_languageUid = 0;
 
     /**
      * Categories.
