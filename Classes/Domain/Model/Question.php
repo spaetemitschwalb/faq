@@ -45,7 +45,7 @@ class Question extends AbstractModel
     protected $tags = '';
 
     /**
-     * @var int
+     * @var ?int
      */
     protected $_languageUid = 0;
 

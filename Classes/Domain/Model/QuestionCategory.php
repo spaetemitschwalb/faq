@@ -44,7 +44,7 @@ class QuestionCategory extends AbstractModel
     protected $description;
 
     /**
-     * @var int
+     * @var ?int
      */
     protected $_languageUid = 0;
 
@@ -68,7 +68,7 @@ class QuestionCategory extends AbstractModel
         return $this->parent;
     }
 
-    public function getLanguageUid(): int
+    public function getLanguageUid(): ?int
     {
         return $this->_languageUid;
     }
