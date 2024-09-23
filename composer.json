@@ -26,7 +26,7 @@
   ],
   "require": {
     "php": "^7.4||^8.0",
-    "lochmueller/autoloader": "^7.2",
+    "lochmueller/autoloader": "^12.0",
     "typo3/cms-core": "^12.0"
   },
   "replace": {
