@@ -172,7 +172,7 @@ class Question extends AbstractModel
     /**
      * Public getter for the languageUid.
      */
-    public function getLanguageId(): int
+    public function getLanguageId(): ?int
     {
         return $this->_languageUid;
     }
