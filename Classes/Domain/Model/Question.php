@@ -171,6 +171,8 @@ class Question extends AbstractModel
 
     /**
      * Public getter for the languageUid.
+     * 
+     * @return ?int
      */
     public function getLanguageId(): ?int
     {
